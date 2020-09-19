@@ -11,8 +11,8 @@ struct HikeView: View {
     var body: some View {
         VStack {
             HStack {
-//                HikeGraph(data: hike, path: \.elevation)
-//                    .frame(width: 50, height: 30)
+                HikeGraph(data: hike, path: \.elevation)
+                    .frame(width: 50, height: 30)
 
                 VStack(alignment: .leading) {
                     Text(hike.name)
